@@ -1,0 +1,10 @@
+# Scraper for visits of Ministerio de Cultura Peru 
+
+All the data is scraped from http://visitas.mcultura.gob.pe/?r=consultas/visitaConsulta/index
+
+## Usage
+
+```python
+ >>> data = get_visits_per_day('15/06/2016')
+ >>> print(data)
+```
